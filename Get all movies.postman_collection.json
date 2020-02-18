@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "b8544336-df3f-4479-a25c-533fa99b5f01",
+		"name": "Get all movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get actor id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/search/person/?api_key=28acc3596024bbedbcf35d6718ffb64b&query=Robert+Downey+Jr/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"search",
+						"person",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "28acc3596024bbedbcf35d6718ffb64b"
+						},
+						{
+							"key": "query",
+							"value": "Robert+Downey+Jr/"
+						}
+					]
+				},
+				"description": "This searches the API for an actor and captures the id"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "15a7d2fe-1807-42f0-a5e2-5ba713ef724e",
+			"key": "actorId",
+			"value": "\"\"",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
