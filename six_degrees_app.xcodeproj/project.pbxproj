@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A454812123F488E700AB78FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454812023F488E700AB78FA /* AppDelegate.swift */; };
+		A454812323F488E700AB78FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454812223F488E700AB78FA /* SceneDelegate.swift */; };
+		A454812523F488E700AB78FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454812423F488E700AB78FA /* ContentView.swift */; };
+		A454812723F488E900AB78FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A454812623F488E900AB78FA /* Assets.xcassets */; };
+		A454812A23F488E900AB78FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A454812923F488E900AB78FA /* Preview Assets.xcassets */; };
+		A454812D23F488E900AB78FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A454812B23F488E900AB78FA /* LaunchScreen.storyboard */; };
+		A454813823F488E900AB78FA /* six_degrees_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454813723F488E900AB78FA /* six_degrees_appTests.swift */; };
+		A454814323F488E900AB78FA /* six_degrees_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454814223F488E900AB78FA /* six_degrees_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A454813423F488E900AB78FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A454811523F488E700AB78FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A454811C23F488E700AB78FA;
+			remoteInfo = six_degrees_app;
+		};
+		A454813F23F488E900AB78FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A454811523F488E700AB78FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A454811C23F488E700AB78FA;
+			remoteInfo = six_degrees_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A454811D23F488E700AB78FA /* six_degrees_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = six_degrees_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A454812023F488E700AB78FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A454812223F488E700AB78FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A454812423F488E700AB78FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A454812623F488E900AB78FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A454812923F488E900AB78FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A454812C23F488E900AB78FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A454812E23F488E900AB78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A454813323F488E900AB78FA /* six_degrees_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = six_degrees_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A454813723F488E900AB78FA /* six_degrees_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = six_degrees_appTests.swift; sourceTree = "<group>"; };
+		A454813923F488E900AB78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A454813E23F488E900AB78FA /* six_degrees_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = six_degrees_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A454814223F488E900AB78FA /* six_degrees_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = six_degrees_appUITests.swift; sourceTree = "<group>"; };
+		A454814423F488E900AB78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A454811A23F488E700AB78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454813023F488E900AB78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454813B23F488E900AB78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A454811423F488E700AB78FA = {
+			isa = PBXGroup;
+			children = (
+				A454811F23F488E700AB78FA /* six_degrees_app */,
+				A454813623F488E900AB78FA /* six_degrees_appTests */,
+				A454814123F488E900AB78FA /* six_degrees_appUITests */,
+				A454811E23F488E700AB78FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A454811E23F488E700AB78FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A454811D23F488E700AB78FA /* six_degrees_app.app */,
+				A454813323F488E900AB78FA /* six_degrees_appTests.xctest */,
+				A454813E23F488E900AB78FA /* six_degrees_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A454811F23F488E700AB78FA /* six_degrees_app */ = {
+			isa = PBXGroup;
+			children = (
+				A454812023F488E700AB78FA /* AppDelegate.swift */,
+				A454812223F488E700AB78FA /* SceneDelegate.swift */,
+				A454812423F488E700AB78FA /* ContentView.swift */,
+				A454812623F488E900AB78FA /* Assets.xcassets */,
+				A454812B23F488E900AB78FA /* LaunchScreen.storyboard */,
+				A454812E23F488E900AB78FA /* Info.plist */,
+				A454812823F488E900AB78FA /* Preview Content */,
+			);
+			path = six_degrees_app;
+			sourceTree = "<group>";
+		};
+		A454812823F488E900AB78FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A454812923F488E900AB78FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A454813623F488E900AB78FA /* six_degrees_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				A454813723F488E900AB78FA /* six_degrees_appTests.swift */,
+				A454813923F488E900AB78FA /* Info.plist */,
+			);
+			path = six_degrees_appTests;
+			sourceTree = "<group>";
+		};
+		A454814123F488E900AB78FA /* six_degrees_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A454814223F488E900AB78FA /* six_degrees_appUITests.swift */,
+				A454814423F488E900AB78FA /* Info.plist */,
+			);
+			path = six_degrees_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A454811C23F488E700AB78FA /* six_degrees_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A454814723F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_app" */;
+			buildPhases = (
+				A454811923F488E700AB78FA /* Sources */,
+				A454811A23F488E700AB78FA /* Frameworks */,
+				A454811B23F488E700AB78FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = six_degrees_app;
+			productName = six_degrees_app;
+			productReference = A454811D23F488E700AB78FA /* six_degrees_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A454813223F488E900AB78FA /* six_degrees_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A454814A23F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_appTests" */;
+			buildPhases = (
+				A454812F23F488E900AB78FA /* Sources */,
+				A454813023F488E900AB78FA /* Frameworks */,
+				A454813123F488E900AB78FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A454813523F488E900AB78FA /* PBXTargetDependency */,
+			);
+			name = six_degrees_appTests;
+			productName = six_degrees_appTests;
+			productReference = A454813323F488E900AB78FA /* six_degrees_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A454813D23F488E900AB78FA /* six_degrees_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A454814D23F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_appUITests" */;
+			buildPhases = (
+				A454813A23F488E900AB78FA /* Sources */,
+				A454813B23F488E900AB78FA /* Frameworks */,
+				A454813C23F488E900AB78FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A454814023F488E900AB78FA /* PBXTargetDependency */,
+			);
+			name = six_degrees_appUITests;
+			productName = six_degrees_appUITests;
+			productReference = A454813E23F488E900AB78FA /* six_degrees_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A454811523F488E700AB78FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Zach Becker";
+				TargetAttributes = {
+					A454811C23F488E700AB78FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A454813223F488E900AB78FA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A454811C23F488E700AB78FA;
+					};
+					A454813D23F488E900AB78FA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A454811C23F488E700AB78FA;
+					};
+				};
+			};
+			buildConfigurationList = A454811823F488E700AB78FA /* Build configuration list for PBXProject "six_degrees_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A454811423F488E700AB78FA;
+			productRefGroup = A454811E23F488E700AB78FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A454811C23F488E700AB78FA /* six_degrees_app */,
+				A454813223F488E900AB78FA /* six_degrees_appTests */,
+				A454813D23F488E900AB78FA /* six_degrees_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A454811B23F488E700AB78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A454812D23F488E900AB78FA /* LaunchScreen.storyboard in Resources */,
+				A454812A23F488E900AB78FA /* Preview Assets.xcassets in Resources */,
+				A454812723F488E900AB78FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454813123F488E900AB78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454813C23F488E900AB78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A454811923F488E700AB78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A454812123F488E700AB78FA /* AppDelegate.swift in Sources */,
+				A454812323F488E700AB78FA /* SceneDelegate.swift in Sources */,
+				A454812523F488E700AB78FA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454812F23F488E900AB78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A454813823F488E900AB78FA /* six_degrees_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A454813A23F488E900AB78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A454814323F488E900AB78FA /* six_degrees_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A454813523F488E900AB78FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A454811C23F488E700AB78FA /* six_degrees_app */;
+			targetProxy = A454813423F488E900AB78FA /* PBXContainerItemProxy */;
+		};
+		A454814023F488E900AB78FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A454811C23F488E700AB78FA /* six_degrees_app */;
+			targetProxy = A454813F23F488E900AB78FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A454812B23F488E900AB78FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A454812C23F488E900AB78FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A454814523F488E900AB78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A454814623F488E900AB78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A454814823F488E900AB78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"six_degrees_app/Preview Content\"";
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = six_degrees_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A454814923F488E900AB78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"six_degrees_app/Preview Content\"";
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = six_degrees_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A454814B23F488E900AB78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				INFOPLIST_FILE = six_degrees_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/six_degrees_app.app/six_degrees_app";
+			};
+			name = Debug;
+		};
+		A454814C23F488E900AB78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				INFOPLIST_FILE = six_degrees_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/six_degrees_app.app/six_degrees_app";
+			};
+			name = Release;
+		};
+		A454814E23F488E900AB78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				INFOPLIST_FILE = six_degrees_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = six_degrees_app;
+			};
+			name = Debug;
+		};
+		A454814F23F488E900AB78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC6QRHJVV7;
+				INFOPLIST_FILE = six_degrees_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.docmisterio.six-degrees-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = six_degrees_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A454811823F488E700AB78FA /* Build configuration list for PBXProject "six_degrees_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A454814523F488E900AB78FA /* Debug */,
+				A454814623F488E900AB78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A454814723F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A454814823F488E900AB78FA /* Debug */,
+				A454814923F488E900AB78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A454814A23F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A454814B23F488E900AB78FA /* Debug */,
+				A454814C23F488E900AB78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A454814D23F488E900AB78FA /* Build configuration list for PBXNativeTarget "six_degrees_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A454814E23F488E900AB78FA /* Debug */,
+				A454814F23F488E900AB78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A454811523F488E700AB78FA /* Project object */;
+}
