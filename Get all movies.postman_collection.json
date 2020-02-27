@@ -7,11 +7,26 @@
 	"item": [
 		{
 			"name": "get actor id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "81a20e0f-beb2-4100-8f96-1908e2284cd7",
+						"exec": [
+							"var jsonDataId = JSON.parse(responseBody);",
+							"console.log(jsonDataId)",
+							"pm.environment.set(\"id\", jsonDataId.results[0].id);",
+							"console.log(pm.environment.get(\"id\"));"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.themoviedb.org/3/search/person/?api_key=28acc3596024bbedbcf35d6718ffb64b&query=Robert+Downey+Jr/",
+					"raw": "https://api.themoviedb.org/3/search/person/?api_key={{apiKey}}&query=Robert+Downey+Jr/",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -27,7 +42,7 @@
 					"query": [
 						{
 							"key": "api_key",
-							"value": "28acc3596024bbedbcf35d6718ffb64b"
+							"value": "{{apiKey}}"
 						},
 						{
 							"key": "query",
@@ -38,11 +53,58 @@
 				"description": "This searches the API for an actor and captures the id"
 			},
 			"response": []
+		},
+		{
+			"name": "feed id and get movies",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "81a20e0f-beb2-4100-8f96-1908e2284cd7",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"console.log(jsonData)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/person/{{id}}/movie_credits?api_key={{apiKey}}&language=en-US",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"person",
+						"{{id}}",
+						"movie_credits"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{apiKey}}"
+						},
+						{
+							"key": "language",
+							"value": "en-US"
+						}
+					]
+				},
+				"description": "This searches the API for an actor and captures the id"
+			},
+			"response": []
 		}
 	],
 	"variable": [
 		{
-			"id": "15a7d2fe-1807-42f0-a5e2-5ba713ef724e",
+			"id": "e3ad44db-df23-4ff1-97cf-7b5401d27b00",
 			"key": "actorId",
 			"value": "\"\"",
 			"type": "string"

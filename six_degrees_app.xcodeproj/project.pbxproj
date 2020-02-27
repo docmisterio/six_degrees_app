@@ -15,6 +15,7 @@
 		A454812D23F488E900AB78FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A454812B23F488E900AB78FA /* LaunchScreen.storyboard */; };
 		A454813823F488E900AB78FA /* six_degrees_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454813723F488E900AB78FA /* six_degrees_appTests.swift */; };
 		A454814323F488E900AB78FA /* six_degrees_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454814223F488E900AB78FA /* six_degrees_appUITests.swift */; };
+		A4D49E4C24070AA3002518E0 /* apiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49E4B24070AA3002518E0 /* apiCaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A454813E23F488E900AB78FA /* six_degrees_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = six_degrees_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A454814223F488E900AB78FA /* six_degrees_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = six_degrees_appUITests.swift; sourceTree = "<group>"; };
 		A454814423F488E900AB78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D49E4B24070AA3002518E0 /* apiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A454812023F488E700AB78FA /* AppDelegate.swift */,
 				A454812223F488E700AB78FA /* SceneDelegate.swift */,
 				A454812423F488E700AB78FA /* ContentView.swift */,
+				A4D49E4B24070AA3002518E0 /* apiCaller.swift */,
 				A454812623F488E900AB78FA /* Assets.xcassets */,
 				A454812B23F488E900AB78FA /* LaunchScreen.storyboard */,
 				A454812E23F488E900AB78FA /* Info.plist */,
@@ -270,6 +273,7 @@
 				A454812123F488E700AB78FA /* AppDelegate.swift in Sources */,
 				A454812323F488E700AB78FA /* SceneDelegate.swift in Sources */,
 				A454812523F488E700AB78FA /* ContentView.swift in Sources */,
+				A4D49E4C24070AA3002518E0 /* apiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
